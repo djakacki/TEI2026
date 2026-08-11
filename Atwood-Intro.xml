@@ -162,7 +162,7 @@
 					writer who's a capital W, capital W. Virginia Woolf certainly was one, and
 					Katherine Mansfield was one, and Elizabeth Bowen is one. Katherine Anne Porter?
 					Don't think she really is—I mean, her writing is certainly very feminine, but I
-					would say that there wasn't this “WW” business in Katherine Anne Porter. Who
+					would say that there wasn't this “WW” business in <persName key="Porter, Katherine Anne, 1890-1980." ref="http://viaf.org/viaf/56620604" ana="webannotation:http://temp.lincsproject.ca/lKYnuaNJQ7Y">Katherine Anne Porter</persName>. Who
 					else? There's Eudora Welty, who's certainly not a "Woman Winter," though she's
 					become one lately. </p>
 				<p> INTERVIEWER: What is it that happens to make this change? </p>
@@ -941,6 +941,95 @@
                     "crm:E73_Information_Object"
                 ],
                 "value": "[ana~=webannotation:http://temp.lincsproject.ca/UhtMYo3oobD]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/56620604",
+        "type": "crm:E21_Person",
+        "label": "Porter, Katherine Anne, 1890-1980.",
+        "description": "Porter, Katherine Anne"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/lKYnuaNJQ7Y">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/lKYnuaNJQ7Y",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-08-11T23:31:32.119Z",
+    "creator": {
+        "id": "https://github.com/djakacki",
+        "type": "crm:E21_Person",
+        "name": "Diane Jakacki"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/vYah4iwMGfD",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/djakacki/TEI2026/main/Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/djakacki/TEI2026/main/Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Introduction: Women Writers at Work: The Paris Review Interviews"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/vYah4iwMGfD/selector/textPosition/yXjGEIngenG",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 9881,
+                "end": 9902,
+                "refinedBy": {
+                    "id": "/target/vYah4iwMGfD/selector/textQuote/jI8NIcpGZNS",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Katherine Anne Porter",
+                    "prefix": " Katherine Anne Porter?\n\t\t\t\t\tDon't think she really is—I mean, her writing is certainly very feminine, but I\n\t\t\t\t\twould say that there wasn't this “WW” business in",
+                    "suffix": " Who\n\t\t\t\t\telse? There's Eudora Welty, who's certainly not a \"Woman Winter,\" though she's\n\t\t\t\t\tbecome one lately"
+                }
+            },
+            {
+                "id": "/target/vYah4iwMGfD/selector/css/s584Ywt9BJm",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/lKYnuaNJQ7Y]"
             }
         ]
     },
