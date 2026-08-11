@@ -71,7 +71,7 @@
 					alternative to language is silence.) </p>
 				<p> I was recently on a panel—that polygonal form of discourse so beloved of the
 					democratic twentieth century—consisting entirely of women, including Jan Morris,
-					who used to be James Morris, and Nayantara Sahgal of <placeName key="India" ref="http://www.wikidata.org/entity/Q668" ana="webannotation:http://temp.lincsproject.ca/AYDLk4uvdlV">India</placeName>. From the audience
+					who used to be <persName key="Morris, Jan, 1926-2020." ref="http://viaf.org/viaf/100161330" ana="webannotation:http://temp.lincsproject.ca/r0jK6bEqTAm">James Morris</persName>, and Nayantara Sahgal of <placeName key="India" ref="http://www.wikidata.org/entity/Q668" ana="webannotation:http://temp.lincsproject.ca/AYDLk4uvdlV">India</placeName>. From the audience
 					came the question, "How do you feel about being on a panel of women?" We all
 					prevaricated. Some of us protested that we had been on lots of panels that
 					included men; others said that most panels were male, with a woman dotted here
@@ -860,6 +860,95 @@
         "type": "crm:E21_Person",
         "label": "Porter, Katherine Anne, 1890-1980.",
         "description": "Porter, Katherine Anne"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/r0jK6bEqTAm">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/r0jK6bEqTAm",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-08-11T23:28:40.121Z",
+    "creator": {
+        "id": "https://github.com/djakacki",
+        "type": "crm:E21_Person",
+        "name": "Diane Jakacki"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/Ge9KWX0bFEo",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/djakacki/TEI2026/main/Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/djakacki/TEI2026/main/Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Introduction: Women Writers at Work: The Paris Review Interviews"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/Ge9KWX0bFEo/selector/textPosition/xvsp3KSYt1S",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 2804,
+                "end": 2816,
+                "refinedBy": {
+                    "id": "/target/Ge9KWX0bFEo/selector/textQuote/5zp9dlWaiD3",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "James Morris",
+                    "prefix": ") \n\t\t\t\t I was recently on a panel—that polygonal form of discourse so beloved of the\n\t\t\t\t\tdemocratic twentieth century—consisting entirely of women, including Jan Morris,\n\t\t\t\t\twho used to be",
+                    "suffix": " and Nayantara Sahgal of India"
+                }
+            },
+            {
+                "id": "/target/Ge9KWX0bFEo/selector/css/sfVjOaZMK05",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/r0jK6bEqTAm]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/100161330",
+        "type": "crm:E21_Person",
+        "label": "Morris, Jan, 1926-2020.",
+        "description": "Morris, Jan, 1926-"
     },
     "P2_has_type": [
         "oa:identifying"
