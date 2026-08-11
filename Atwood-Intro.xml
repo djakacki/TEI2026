@@ -178,7 +178,7 @@
 					gift. An athlete can run. A painter can paint. A writer has a facility with
 					words. A good writer can also think. Isn't that enough to define a writer by?
 					(p. 304) </p>
-				<p> Cynthia Ozick also says that the biographers of Wharton and Woolf "missed the
+				<p> <persName key="Ozick, Cynthia, 1928-...." ref="http://viaf.org/viaf/110575264" ana="webannotation:http://temp.lincsproject.ca/r5tdJgH5dzi">Cynthia Ozick</persName> also says that the biographers of Wharton and Woolf "missed the
 					writer" in their subjects, and this is probably easier to do with women than
 					with men. There is, still, a sort of trained-dog fascination with the idea of
 					women writers—not that the thing is done well, but that it is done at all, by a
@@ -1394,6 +1394,95 @@
         "type": "crm:E21_Person",
         "label": "Borges, Jorge Luís, 1899-1986",
         "description": "Borges, Jorge Luis"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/r5tdJgH5dzi">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/r5tdJgH5dzi",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-08-11T23:31:39.909Z",
+    "creator": {
+        "id": "https://github.com/djakacki",
+        "type": "crm:E21_Person",
+        "name": "Diane Jakacki"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/CdsnNmSN0P1",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/djakacki/TEI2026/main/Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/djakacki/TEI2026/main/Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Introduction: Women Writers at Work: The Paris Review Interviews"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/CdsnNmSN0P1/selector/textPosition/m3yxgx0ce9i",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 10979,
+                "end": 10992,
+                "refinedBy": {
+                    "id": "/target/CdsnNmSN0P1/selector/textQuote/YbxeYjFxiBh",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Cynthia Ozick",
+                    "prefix": " 304) \n\t\t\t\t",
+                    "suffix": "also says that the biographers of Wharton and Woolf \"missed the\n\t\t\t\t\twriter\" in their subjects, and this is probably easier to do with women than\n\t\t\t\t\twith men"
+                }
+            },
+            {
+                "id": "/target/CdsnNmSN0P1/selector/css/q76SJzdPyS0",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/r5tdJgH5dzi]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/110575264",
+        "type": "crm:E21_Person",
+        "label": "Ozick, Cynthia, 1928-....",
+        "description": "Ozick, Cynthia"
     },
     "P2_has_type": [
         "oa:identifying"
