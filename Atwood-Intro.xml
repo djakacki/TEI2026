@@ -127,7 +127,7 @@
 					but it certainly was at the time, and I didn't much like it. I dealt with it the
 					same way I deal with everything. I just tended my own garden, didn't pay much
 					attention, be- haved—I suppose—deviously. (Pp. 324-325) </p>
-				<p> I think of Marianne Moore, living decorously with her mother and her "dark"
+				<p> I think of <persName key="Moore, Marianne, 1887-1972." ref="http://viaf.org/viaf/61562401" ana="webannotation:http://temp.lincsproject.ca/C1wzUlIkNMY">Marianne Moore</persName>, living decorously with her mother and her "dark"
 					furniture, her height of social rebellion the courageous ignoring of the need
 					for chaperones at Village literary parties, and wonder how many male writers
 					could have lived such a circumscribed life and survived the image. </p>
@@ -496,6 +496,95 @@
                     "crm:E73_Information_Object"
                 ],
                 "value": "[ana~=webannotation:http://temp.lincsproject.ca/D3sgY52F2SW]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/61562401",
+        "type": "crm:E21_Person",
+        "label": "Moore, Marianne, 1887-1972.",
+        "description": "Moore, Marianne, 1887-1972, poétesse"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/C1wzUlIkNMY">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/C1wzUlIkNMY",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-08-11T23:31:25.854Z",
+    "creator": {
+        "id": "https://github.com/djakacki",
+        "type": "crm:E21_Person",
+        "name": "Diane Jakacki"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/HZN6T1D6o5G",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/djakacki/TEI2026/main/Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/djakacki/TEI2026/main/Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Introduction: Women Writers at Work: The Paris Review Interviews"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/HZN6T1D6o5G/selector/textPosition/5bm4Fbeb8Jm",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 7084,
+                "end": 7098,
+                "refinedBy": {
+                    "id": "/target/HZN6T1D6o5G/selector/textQuote/8M1EMekRtlK",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Marianne Moore",
+                    "prefix": " 324-325) \n\t\t\t\t I think of",
+                    "suffix": " living decorously with her mother and her \"dark\"\n\t\t\t\t\tfurniture, her height of social rebellion the courageous ignoring of the need\n\t\t\t\t\tfor chaperones at Village literary parties, and wonder how many male writers\n\t\t\t\t\tcould have lived such a circumscribed life and survived the image"
+                }
+            },
+            {
+                "id": "/target/HZN6T1D6o5G/selector/css/nwtfY2oJart",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/C1wzUlIkNMY]"
             }
         ]
     },
